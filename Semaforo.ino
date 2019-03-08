@@ -1,7 +1,7 @@
-int led13 = 7;
-int led12 = 6;
-int led11 = 5;
-int led10 = 4;
+int led13 = 13;
+int led12 = 12;
+int led11 = 11;
+int led10 = 10;
 
 void setup() {
 	// put your setup code here, to run once:
