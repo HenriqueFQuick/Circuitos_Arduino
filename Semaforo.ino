@@ -26,19 +26,8 @@ void loop() {
 	delay(500);
 	digitalWrite(led10, 0);
 	delay(500);
-	
 	digitalWrite(led13, 0);
-	digitalWrite(led10, 1);
-	digitalWrite(led12, 1);
-	delay(500);
-	digitalWrite(led10, 0);
-	delay(500);
-	digitalWrite(led10, 1);
-	delay(500);
-	digitalWrite(led10, 0);
-	delay(500);
-
-	digitalWrite(led12, 0);
+	
 	digitalWrite(led10, 1);
 	digitalWrite(led11, 1);
 	delay(500);
@@ -59,5 +48,16 @@ void loop() {
 	digitalWrite(led11, 0);
 	
 	
+	
+	digitalWrite(led10, 1);
+	digitalWrite(led12, 1);
+	delay(500);
+	digitalWrite(led10, 0);
+	delay(500);
+	digitalWrite(led10, 1);
+	delay(500);
+	digitalWrite(led10, 0);
+	delay(500);
+	digitalWrite(led12, 0);
 	
 }
