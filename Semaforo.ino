@@ -4,7 +4,7 @@ int led11 = 11;
 int led10 = 10;
 
 void setup() {
-	// put your setup code here, to run once:
+	//Inicializado cada porta como saida 
 	pinMode(led10, OUTPUT);
 	pinMode(led11, OUTPUT);
 	pinMode(led12, OUTPUT);
@@ -12,7 +12,7 @@ void setup() {
 }
 
 void loop() {
-	// put your main code here, to run repeatedly:
+	
 	digitalWrite(led10, 1);
 	digitalWrite(led13, 1);
 	delay(500);
