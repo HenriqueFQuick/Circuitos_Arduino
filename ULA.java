@@ -74,7 +74,7 @@ public class ULA{
 	public static void soma(int a, int b)throws Exception{
 		int x = (a&b);
 		int y = (a^b);
-		String str = a + " "+ b + " " + y;
+		String str = a + " "+ b + " " + y + " " + x;
 		pb = new ProcessBuilder("envia.exe","com8",str);
 	}
 }
