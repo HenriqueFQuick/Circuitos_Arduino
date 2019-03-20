@@ -24,10 +24,12 @@ void loop() {
     entradaR = Serial.parseInt();
     entradaV = Serial.parseInt();
 
-    acendeLED(entradaA, led13);
-    acendeLED(entradaB, led12);
-    acendeLED(entradaR, led11);
-    acendeLED(entradaV ,led10);
+    if(Serial.read() == '\n'){
+      acendeLED(entradaA, led13);
+      acendeLED(entradaB, led12);
+      acendeLED(entradaR, led11);
+      acendeLED(entradaV ,led10);
+    }
   }
 }
 
